@@ -5,7 +5,20 @@
   background-attachment: scroll;
   background-clip: border-box;
   background-color: #323232;
-  background-image: url("/images/background.jpg");
+  background-image:
+    url("http://donnierayjones.com/random/background/l");
+  background-image:
+    -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.3) 400px, rgba(0, 0, 0, 0) 100%),
+    url("http://donnierayjones.com/random/background/l");
+  background-image:
+    -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.3) 400px, rgba(0, 0, 0, 0) 100%),
+    url("http://donnierayjones.com/random/background/l");
+  background-image:
+    -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.3) 400px, rgba(0, 0, 0, 0) 100%),
+    url("http://donnierayjones.com/random/background/l");
+  background-image:
+    linear-gradient(bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.3) 400px, rgba(0, 0, 0, 0) 100%),
+    url("http://donnierayjones.com/random/background/l");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: repeat;
