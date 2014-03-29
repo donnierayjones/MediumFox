@@ -1,6 +1,4 @@
 .hero {
-  position: fixed;
-  top: 0;
   width: 100%;
   background-attachment: scroll;
   background-clip: border-box;
@@ -8,16 +6,16 @@
   background-image:
     url("http://donnierayjones.com/random/background/l");
   background-image:
-    -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.3) 400px, rgba(0, 0, 0, 0) 100%),
+    -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 400px, rgba(0, 0, 0, 0) 100%),
     url("http://donnierayjones.com/random/background/l");
   background-image:
-    -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.3) 400px, rgba(0, 0, 0, 0) 100%),
+    -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 400px, rgba(0, 0, 0, 0) 100%),
     url("http://donnierayjones.com/random/background/l");
   background-image:
-    -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.3) 400px, rgba(0, 0, 0, 0) 100%),
+    -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 400px, rgba(0, 0, 0, 0) 100%),
     url("http://donnierayjones.com/random/background/l");
   background-image:
-    linear-gradient(bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.3) 400px, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 400px, rgba(0, 0, 0, 0) 100%),
     url("http://donnierayjones.com/random/background/l");
   background-origin: padding-box;
   background-position: 0 0;
@@ -46,10 +44,6 @@
     font-style: normal;
     font-size: 22px;
   }
-}
-
-.home-page {
-  margin-top: 500px;
 }
 
 .her-row {
