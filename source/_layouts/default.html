@@ -7,6 +7,8 @@
   <body>
     {{ content | expand_urls: root_url }}
     {% include footer.html %}
-    {% include disqus.html %}
+    {% if page.comments == true %}
+      {% include disqus.html %}
+    {% endif %}
   </body>
 </html>
